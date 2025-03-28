@@ -22,7 +22,7 @@ res = re.split(" ", txt)
 print(res)
 
 res = re.split(",", txt)
-print(res.string)
+print(res)
 
 res = re.sub("rain", "sun", txt)
 print(res)
@@ -30,7 +30,8 @@ print(res)
 res = re.sub("soon", "later", txt)
 print(res)
 
-#from senetnce finding the first number with ataleast 2 digits
+#from senetnce find the first number with ataleast 2 digits
 txt = "The rain is going to stop soon and the temperature is 25 degree celsius"
 res = re.search("\d{2,}", txt)
 print(res.group())
+

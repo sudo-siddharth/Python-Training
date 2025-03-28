@@ -21,3 +21,4 @@ for root, dirs, files in os.walk(r"Day3\Practice"):
     print(dirs)
     print(files)
     print("\n")
+

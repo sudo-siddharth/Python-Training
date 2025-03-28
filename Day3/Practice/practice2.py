@@ -1,37 +1,37 @@
-# # try and catch
+# try and catch
 
-# try:
-#     print(x)
-# except:
-#     print("An exception occurred")
+try:
+    print(x)
+except:
+    print("An exception occurred")
 
-# # try and catch examples , nested try
-# try:
-#     print(x)
-#     try:
-#         print(y)
-#     except:
-#         print("An exception occurred")
-# except:
-#     print("An exception occurred")
-# finally:
-#     print("Finally block executed")
+# try and catch examples , nested try
+try:
+    print(x)
+    try:
+        print(y)
+    except:
+        print("An exception occurred")
+except:
+    print("An exception occurred")
+finally:
+    print("Finally block executed")
 
-# #Typerror
-# x="name"
-# try:
-#     print(x+2)
-# except TypeError:
-#     print("Type error occurred")
+#Typerror
+x="name"
+try:
+    print(x+2)
+except TypeError:
+    print("Type error occurred")
 
-# # out of bound exception
-# x=[1,2,3]
-# try:
-#     print(x[4])
-# except IndexError as e:
-#     print("error: ", e)
-# finally:
-#     print("Finally block executed")
+# out of bound exception
+x=[1,2,3]
+try:
+    print(x[4])
+except IndexError as e:
+    print("error: ", e)
+finally:
+    print("Finally block executed")
 
 # check age example and valuerror using try and catch
 try:

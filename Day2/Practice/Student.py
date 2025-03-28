@@ -19,7 +19,7 @@ for i in range(n):
     name = input("Enter Name: ")
     branch = input("Enter Branch: ")
     phone = input("Enter Phone: ")
-    
+
     student = Student(USN, name, branch, phone)
     students.append(student)
 

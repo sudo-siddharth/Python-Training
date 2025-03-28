@@ -18,3 +18,10 @@ while i<10:
 
     #third
 
+num=int("Enter a number:")
+sum=0
+
+while(True):
+    
+    sum += num
+

@@ -1,0 +1,4 @@
+John Doe - john.doe@gmail.com
+Alice - alice@@mail.com
+Bob - bob123@yahoo.com
+InvalidUser - wrong.email@com
